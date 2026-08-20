@@ -43,7 +43,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Please complete the required fields." }, { status: 400 });
   }
 
-  const notifyEmail = process.env.BREVO_NOTIFY_EMAIL ?? "founder@gmail.com";
+  const notifyEmail = process.env.BREVO_NOTIFY_EMAIL ?? "founder@mulsetu.com";
   const interest = service ? serviceLabel(service) : "Not specified";
   const safeName = escapeHtml(name);
   const safeCompany = escapeHtml(company || "Not provided");
