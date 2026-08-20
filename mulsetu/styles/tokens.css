@@ -1,0 +1,117 @@
+:root {
+  --color-forest: #3e6700;
+  --color-teal: #19686c;
+  --color-lime: #baf472;
+  --color-lime-mid: #9fd759;
+  --color-cyan: #a8eff3;
+  --color-ink: #181b25;
+  --color-body: #434939;
+  --color-muted: #c2c9b4;
+  --color-charcoal: #12141a;
+  --color-surface: #faf8ff;
+  --color-surface-alt: #f2f3ff;
+  --color-white: #ffffff;
+  --color-hero-copy: #e0e2ef;
+  --color-border: #c2c9b4;
+  --color-border-subtle: rgba(115, 122, 103, 0.12);
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-white-20: rgba(255, 255, 255, 0.2);
+  --color-white-50: rgba(255, 255, 255, 0.5);
+  --color-white-70: rgba(255, 255, 255, 0.7);
+  --color-white-80: rgba(255, 255, 255, 0.8);
+  --color-forest-10: rgba(62, 103, 0, 0.1);
+  --color-forest-20: rgba(62, 103, 0, 0.2);
+  --color-teal-10: rgba(25, 104, 108, 0.1);
+  --color-teal-20: rgba(25, 104, 108, 0.2);
+  --color-cyan-20: rgba(168, 239, 243, 0.2);
+  --color-lime-20: rgba(186, 244, 114, 0.2);
+  --color-panel: #2d303a;
+  --color-media: #d8d9e6;
+  --color-hero-media: #1a1d26;
+  --color-forest-hover: #345700;
+  --color-white-60: rgba(255, 255, 255, 0.6);
+  --color-white-90: rgba(255, 255, 255, 0.9);
+
+  --font-display: var(--font-plus-jakarta), "Plus Jakarta Sans", sans-serif;
+  --font-body: var(--font-inter), Inter, sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-14: 56px;
+  --space-16: 64px;
+  --space-section: 120px;
+  --gutter: 64px;
+  --content-width: 1152px;
+  --page-width: 1280px;
+  --nav-offset: 80px;
+
+  --radius-xs: 2px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-pill: 9999px;
+
+  --shadow-nav: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-button: 0 10px 15px -3px rgba(62, 103, 0, 0.2), 0 4px 6px -4px rgba(62, 103, 0, 0.2);
+  --shadow-card: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-soft: 0 4px 15px rgba(0, 0, 0, 0.05);
+  --shadow-media: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  --text-eyebrow: 14px;
+  --text-body: 18px;
+  --text-h1: 72px;
+  --text-h1-service: 64px;
+  --text-h2: 56px;
+  --text-h2-cta: 48px;
+  --text-h3: 32px;
+  --text-h4: 24px;
+
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --gutter: 32px;
+    --space-section: 80px;
+    --text-h1: 48px;
+    --text-h1-service: 44px;
+    --text-h2: 40px;
+    --text-h2-cta: 36px;
+    --nav-offset: 64px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --gutter: 20px;
+    --space-section: 56px;
+    --text-h1: 34px;
+    --text-h1-service: 32px;
+    --text-h2: 30px;
+    --text-h2-cta: 26px;
+    --text-h3: 24px;
+    --text-body: 16px;
+    --nav-offset: 64px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --gutter: 16px;
+    --space-section: 48px;
+    --text-h1: 30px;
+    --text-h1-service: 28px;
+    --text-h2: 26px;
+    --text-h2-cta: 24px;
+    --text-h4: 20px;
+  }
+}

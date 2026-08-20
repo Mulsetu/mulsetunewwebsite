@@ -1,0 +1,44 @@
+---
+description: All Mulsetu application code must live inside mulsetu/ using the defined folder structure
+alwaysApply: true
+---
+
+# Mulsetu folder structure
+
+Write every application file inside `mulsetu/` only. Do not create source files at the workspace root or in any other directory.
+
+```
+mulsetu/
+├── app/                    # Next.js App Router pages only
+├── components/
+│   ├── layout/             # Navbar, Footer, page chrome
+│   ├── ui/                 # Button, Badge, Card, SectionHeading, primitives
+│   ├── home/               # Home page sections
+│   ├── services/           # Service page sections
+│   └── pages/              # Other page sections (our-work, products, about, blog)
+├── data/                   # services.ts, projects.ts, products.ts, navigation.ts
+├── lib/                    # helpers and utilities
+├── public/                 # images/, logos/, icons/
+├── styles/                 # global CSS
+└── docs/                   # design-system.md and design notes
+```
+
+## Placement
+
+- Routes → `mulsetu/app/.../page.tsx`
+- Navbar / Footer → `mulsetu/components/layout/`
+- Reusable UI → `mulsetu/components/ui/`
+- Home sections → `mulsetu/components/home/`
+- Service sections → `mulsetu/components/services/`
+- Other page sections → `mulsetu/components/pages/`
+- Content arrays / types → `mulsetu/data/`
+- Helpers → `mulsetu/lib/`
+- Assets → `mulsetu/public/`
+- Global styles → `mulsetu/styles/`
+- Design tokens / notes → `mulsetu/docs/`
+
+## Do not
+
+- Put components next to pages
+- Add a second `components/`, `src/`, or `app/` outside `mulsetu/`
+- Invent folders that are not in this tree
