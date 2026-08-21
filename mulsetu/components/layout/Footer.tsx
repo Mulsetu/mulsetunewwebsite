@@ -48,6 +48,7 @@ export default function Footer() {
           ))}
         </div>
       </div>
+      <p className="footer__banner">Think of us as your in-house IT team.</p>
       <p className="footer__legal">{copyright}</p>
     </footer>
   );

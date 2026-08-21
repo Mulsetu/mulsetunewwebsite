@@ -2,14 +2,14 @@ import type { Product } from "@/lib/types";
 
 export const products: Product[] = [
   {
-    slug: "growmatics-ai",
-    title: "Growmatics AI",
+    slug: "gbp-booster-ai-agent",
+    title: "GBP booster AI Agent",
     eyebrow: "Local growth",
     description:
       "An AI booster for Google Business Profile — it writes, optimizes, and keeps listings sharp so local search actually converts.",
-    href: "/products#growmatics-ai",
+    href: "/products#gbp-booster-ai-agent",
     icon: "/icons/product-growmatics.svg",
-    image: "/images/growwmatics-ai.png",
+    image: "/images/gbp-booster-ai-agent.png",
     status: "live",
     tags: ["Google Business Profile", "Listing optimizer", "AI booster"],
   },

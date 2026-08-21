@@ -46,7 +46,7 @@ export default function OtherPage({
       />
       {children ? <div className="other-page__content">{children}</div> : null}
       {showCta ? (
-        <div className="section">
+        <div className="section section--compact-top">
           <CTA />
         </div>
       ) : null}

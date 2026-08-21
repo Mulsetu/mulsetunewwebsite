@@ -42,7 +42,7 @@ export function ProductsHeroVisual() {
   return (
     <div className="hero-collage" aria-hidden="true">
       <span className="hero-collage__frame hero-collage__frame--a">
-        <img src="/images/growwmatics-ai.png" alt="" />
+        <img src="/images/gbp-booster-ai-agent.png" alt="" />
       </span>
       <span className="hero-collage__frame hero-collage__frame--b">
         <img src="/images/ai-interviewer.png" alt="" />

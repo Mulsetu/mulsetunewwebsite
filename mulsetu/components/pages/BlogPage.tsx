@@ -43,7 +43,7 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <div className="section">
+      <div className="section section--compact-top">
         <CTA
           eyebrow={blogCta.eyebrow}
           title={blogCta.title}

@@ -69,66 +69,68 @@ export default function ProjectCard({
             </div>
           ) : null}
         </div>
-        <div className="project-card__footer">
-          {project.quote ? (
-            <>
-              <blockquote className="project-card__quote">
-                “{project.quote.text}”
-              </blockquote>
-              <div className="project-card__author">
-                <span className="project-card__avatar">
-                  {project.quote.initials}
-                </span>
-                <span className="project-card__author-meta">
-                  <span className="project-card__name">{project.quote.name}</span>
-                  <span className="project-card__role">{project.quote.role}</span>
-                </span>
-              </div>
-            </>
-          ) : null}
-          {project.metrics ? (
-            <div className="project-card__metrics">
-              {project.metrics.map((metric) => (
-                <div key={metric.label}>
-                  <p
-                    className={cn(
-                      "project-card__metric-value",
-                      project.categoryTone === "olive" &&
-                        "project-card__metric-value--olive",
-                    )}
-                  >
-                    {metric.value}
-                  </p>
-                  <p className="project-card__metric-label">{metric.label}</p>
+        {project.quote || project.metrics || hasLinks ? (
+          <div className="project-card__footer">
+            {project.quote ? (
+              <>
+                <blockquote className="project-card__quote">
+                  “{project.quote.text}”
+                </blockquote>
+                <div className="project-card__author">
+                  <span className="project-card__avatar">
+                    {project.quote.initials}
+                  </span>
+                  <span className="project-card__author-meta">
+                    <span className="project-card__name">{project.quote.name}</span>
+                    <span className="project-card__role">{project.quote.role}</span>
+                  </span>
                 </div>
-              ))}
-            </div>
-          ) : null}
-          {hasLinks ? (
-            <div className="project-card__tags">
-              {project.website ? (
-                <a
-                  className="tech-tag"
-                  href={project.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project.title} website
-                </a>
-              ) : null}
-              {project.linkedin ? (
-                <a
-                  className="tech-tag"
-                  href={project.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project.title} on LinkedIn
-                </a>
-              ) : null}
-            </div>
-          ) : null}
-        </div>
+              </>
+            ) : null}
+            {project.metrics ? (
+              <div className="project-card__metrics">
+                {project.metrics.map((metric) => (
+                  <div key={metric.label}>
+                    <p
+                      className={cn(
+                        "project-card__metric-value",
+                        project.categoryTone === "olive" &&
+                          "project-card__metric-value--olive",
+                      )}
+                    >
+                      {metric.value}
+                    </p>
+                    <p className="project-card__metric-label">{metric.label}</p>
+                  </div>
+                ))}
+              </div>
+            ) : null}
+            {hasLinks ? (
+              <div className="project-card__tags">
+                {project.website ? (
+                  <a
+                    className="tech-tag"
+                    href={project.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.title} website
+                  </a>
+                ) : null}
+                {project.linkedin ? (
+                  <a
+                    className="tech-tag"
+                    href={project.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.title} on LinkedIn
+                  </a>
+                ) : null}
+              </div>
+            ) : null}
+          </div>
+        ) : null}
       </div>
       <MediaReveal
         className={cn(

@@ -44,7 +44,7 @@ export default function ServicePage({ slug }: ServicePageProps) {
       <section className={`service-hero service-hero--${service.slug}`}>
         <span className="service-hero__veil" aria-hidden="true" />
         <div className="service-hero__grid">
-          <div>
+          <div className="service-hero__copy-block">
             <Badge variant="pill-olive">{service.eyebrow}</Badge>
             <h1 className="service-hero__title">
               {service.headline}{" "}

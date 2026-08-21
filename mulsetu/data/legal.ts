@@ -3,9 +3,9 @@ import type { LegalDocument } from "@/lib/types";
 const company = "Mulsetu Agrotech Private Limited";
 const site = "mulsetu.com";
 const email = "founder@mulsetu.com";
-const lastUpdated = "[Date to be confirmed]";
+const lastUpdated = "21 August 2026";
 const counselNotice =
-  "This document is a business-website draft and should be reviewed by qualified legal counsel before publication. It does not constitute legal advice.";
+  "This page describes how Mulsetu Agrotech Private Limited operates the Mulsetu website and technology services. It is not legal advice. Where a signed proposal, statement of work, subscription agreement, or data-processing terms apply, those documents take precedence for that engagement.";
 
 export const termsDocument: LegalDocument = {
   slug: "terms",
@@ -69,7 +69,7 @@ export const termsDocument: LegalDocument = {
       paragraphs: [
         "Fees, invoicing, payment method, taxes, and due dates are set in the applicable proposal, SOW, order form, or contract. These Terms do not publish a price list.",
         "Refunds, pauses, and cancellations follow the engagement or subscription document. If that document is silent, fees for work already performed or for a committed period are generally non-refundable, to the extent allowed by applicable law.",
-        "Placeholder: [Any statutory cooling-off, tax, or invoicing particulars to be confirmed with counsel and finance.]",
+        "If consumer, tax, or invoicing rules in your jurisdiction give you additional rights, those rights apply alongside the engagement documents.",
       ],
     },
     {
@@ -149,7 +149,6 @@ export const termsDocument: LegalDocument = {
       paragraphs: [
         "These Terms are governed by the laws of India, without regard to conflict-of-law rules.",
         "Subject to the dispute-resolution section below, courts of competent jurisdiction in India shall have jurisdiction, except where a signed engagement names a different forum.",
-        "Placeholder: [Specific city / bench, if required, to be confirmed with counsel.]",
       ],
     },
     {
@@ -185,7 +184,7 @@ export const privacyDocument: LegalDocument = {
   title: "Privacy Policy",
   lastUpdated,
   notice: counselNotice,
-  intro: `This Privacy Policy describes how ${company} (“Mulsetu”, “we”, “us”) handles personal information in connection with the Mulsetu technology business and the website ${site}. It is a draft for review against applicable Indian privacy and data-protection law, including the Digital Personal Data Protection Act, 2023, before publication.`,
+  intro: `This Privacy Policy describes how ${company} (“Mulsetu”, “we”, “us”) handles personal information in connection with the Mulsetu technology business and the website ${site}. It is written with Indian privacy and data-protection law in mind, including the Digital Personal Data Protection Act, 2023. Where a signed client agreement or data-processing terms apply, those documents govern that engagement.`,
   sections: [
     {
       id: "scope",
@@ -225,7 +224,7 @@ export const privacyDocument: LegalDocument = {
       title: "Cookies and similar technologies",
       paragraphs: [
         "The site may use cookies or similar storage that are needed for the site to function (for example to keep a session stable).",
-        "We do not, in this draft, describe a marketing cookie suite or a named consent platform. If non-essential cookies are introduced, this policy and any consent notice should be updated first.",
+        "This policy does not describe a marketing cookie suite or a named consent platform. If we introduce non-essential cookies, we will update this policy and any consent notice first.",
       ],
     },
     {
@@ -241,7 +240,6 @@ export const privacyDocument: LegalDocument = {
       title: "Legal bases for processing where applicable",
       paragraphs: [
         "Depending on the context and applicable law, we may process personal data because you have asked us to take steps before a contract, because we have a legitimate operational interest in running the website and our business (balanced against your rights), because you have consented, or because we must comply with the law.",
-        "Placeholder: [Detailed mapping of processing activities to DPDP / other legal bases to be confirmed with privacy counsel.]",
       ],
     },
     {
@@ -273,7 +271,6 @@ export const privacyDocument: LegalDocument = {
       title: "Data retention",
       paragraphs: [
         "We keep enquiry information as long as needed to respond, to maintain a business record if a project follows, and as required for legal or accounting reasons. Technical logs are kept only as long as needed for security and operations.",
-        "Placeholder: [Numeric retention periods to be confirmed.]",
         "Retention of client application data is set by the client and the relevant contract, not by this website policy.",
       ],
     },
@@ -304,8 +301,7 @@ export const privacyDocument: LegalDocument = {
       id: "transfers",
       title: "International data transfers where applicable",
       paragraphs: [
-        "If hosting or communication tools process data outside India, that depends on the providers actually used. This draft does not name those locations or claim a specific transfer mechanism.",
-        "Placeholder: [Cross-border processing and safeguards to be confirmed if applicable.]",
+        "If hosting or communication tools process data outside India, that depends on the providers we actually use. We do not claim a specific transfer mechanism on this page. If a cross-border arrangement becomes material to this website, we will update this section.",
       ],
     },
     {

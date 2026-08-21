@@ -46,7 +46,7 @@
   --space-12: 48px;
   --space-14: 56px;
   --space-16: 64px;
-  --space-section: 120px;
+  --space-section: 80px;
   --gutter: 64px;
   --content-width: 1152px;
   --page-width: 1280px;
@@ -81,7 +81,7 @@
 @media (max-width: 1024px) {
   :root {
     --gutter: 32px;
-    --space-section: 80px;
+    --space-section: 56px;
     --text-h1: 48px;
     --text-h1-service: 44px;
     --text-h2: 40px;
@@ -93,7 +93,7 @@
 @media (max-width: 767px) {
   :root {
     --gutter: 20px;
-    --space-section: 56px;
+    --space-section: 40px;
     --text-h1: 34px;
     --text-h1-service: 32px;
     --text-h2: 30px;
@@ -107,7 +107,7 @@
 @media (max-width: 480px) {
   :root {
     --gutter: 16px;
-    --space-section: 48px;
+    --space-section: 32px;
     --text-h1: 30px;
     --text-h1-service: 28px;
     --text-h2: 26px;

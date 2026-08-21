@@ -111,10 +111,10 @@ export const pageSeo = {
   products: {
     title: "Products | AI Tools and Operational Platforms",
     description:
-      "In-house Mulsetu products including Growmatics AI, AI Interviewer, Educational ERP, and Dairy OS — designed, shipped, and evolved with the same ownership model.",
+      "In-house Mulsetu products including GBP booster AI Agent, AI Interviewer, Educational ERP, and Dairy OS — designed, shipped, and evolved with the same ownership model.",
     path: "/products",
-    image: "/images/growwmatics-ai.png",
-    imageAlt: "Growmatics AI product by Mulsetu",
+    image: "/images/gbp-booster-ai-agent.png",
+    imageAlt: "GBP booster AI Agent product by Mulsetu",
   },
   blog: {
     title: "Blog | Software, AI, and Product Delivery",

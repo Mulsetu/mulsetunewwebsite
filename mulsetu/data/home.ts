@@ -14,8 +14,8 @@ export const homeIntro = {
 export const homeHero = {
   line1: "Planning to Go Digital but",
   line2Before: "Don't Know ",
-  line2Accent: "Where to Start?",
-  lede: "We bridge the gap between complex industrial challenges and intelligent digital solutions, driving scalable growth for enterprise operations.",
+  phrases: ["What to Build?", "Who to Trust?", "Where to Start?"],
+  lede: "We work as your own dedicated technology team — not a vendor you hire for a project. Your CTO, your developers, your designers. Long-term. All in one place.",
   primaryCta: { label: "Book Free Consultation", href: "/book" },
   secondaryCta: { label: "Explore Services", href: "/services" },
   image: "/images/home-hero.jpg",
@@ -46,14 +46,14 @@ export const capabilityTabs = [
     image: "/images/web-development.png",
   },
   {
-    id: "cloud",
-    label: "Cloud Ops",
+    id: "saas",
+    label: "SaaS Development",
     href: "/services/saas-development",
     badge: "Featured service",
-    title: "Cloud operations & platforms",
+    title: "SaaS platforms that survive real usage",
     description:
       "Reliable environments, release pipelines, and SaaS infrastructure that can survive real usage — not a demo that falls over at ten customers.",
-    linkLabel: "Explore Cloud Ops",
+    linkLabel: "Explore SaaS Development",
     image: "/images/saas-dev.png",
   },
   {
@@ -150,3 +150,70 @@ export const testimonials: Testimonial[] = [
     role: "Founder, Artisan Market",
   },
 ];
+
+export const homeContrast = {
+  kicker: "Not Your Typical IT Company",
+  title: "We Work Like Your Own Team. Not Like a Vendor.",
+  copy: "Traditional IT companies finish the project and move on. We stay — as your CTO, your developers, your strategists. Long after the first deployment.",
+  traditional: {
+    label: "Traditional IT Company",
+    points: [
+      "Delivers the project, disappears after handover",
+      "Bills you for every change request",
+      "Charges for discovery and architecture planning",
+      "No strategic input — just execution",
+      "You manage the vendor, they manage the code",
+      "You're just another ticket in their queue",
+    ],
+  },
+  mulsetu: {
+    label: "With Mulsetu",
+    points: [
+      "Long-term partner — we stay, maintain, and grow with you",
+      "Changes on your terms, no surprise invoices",
+      "Free system design and architecture before any code",
+      "Your own CTO — strategy, roadmap, architecture",
+      "We work alongside your team, not above them",
+      "Full accountability, one contact, zero silos",
+    ],
+  },
+};
+
+export const homeBenefits = {
+  kicker: "What you get",
+  title: "How we actually work with you",
+  items: [
+    {
+      title: "Your Own CTO",
+      copy: "Strategic technology leadership — architecture decisions, roadmap planning, and stack choices — included, not billed.",
+      icon: "/icons/partner-expertise.svg",
+    },
+    {
+      title: "Long-Term Support",
+      copy: "We don't disappear after launch. Maintenance, updates, scaling, new features — we're always on, always accountable.",
+      icon: "/icons/partner-partnership.svg",
+    },
+    {
+      title: "Free Architecture & Design",
+      copy: "Full system design before any development begins. No billable discovery phase. We plan first, always.",
+      icon: "/icons/partner-agile.svg",
+    },
+    {
+      title: "Changes on Your Terms",
+      copy: "Requirements shift. We flex with you. Iterations and changes are built into how we work — not extra invoices.",
+      icon: "/icons/partner-ownership.svg",
+    },
+    {
+      title: "Works With Your Team",
+      copy: "We collaborate with your existing staff and processes — filling skill gaps without replacing what's already working.",
+      icon: "/icons/offering-1.svg",
+    },
+  ],
+};
+
+export const homeBottomLine = {
+  kicker: "The Bottom Line",
+  title: "Not a vendor. Your team.",
+  copy: "If you want a technology partner fully invested in your growth — not just your invoice — Mulsetu is built for you.",
+  ctaLabel: "Book Free Consultation",
+};

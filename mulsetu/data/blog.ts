@@ -246,7 +246,7 @@ export const posts: BlogPost[] = [
     date: "14 Jun 2026",
     isoDate: "2026-06-14",
     readTime: "5 min",
-    image: "/images/growwmatics-ai.png",
+    image: "/images/gbp-booster-ai-agent.png",
     content: [
       {
         type: "p",
@@ -262,7 +262,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Growmatics exists because listing work is repetitive enough to automate and important enough to get wrong. The booster is the writing and the scheduling. The product is a profile that stays sharp.",
+        text: "GBP booster AI Agent exists because listing work is repetitive enough to automate and important enough to get wrong. The booster is the writing and the scheduling. The product is a profile that stays sharp.",
       },
       {
         type: "h2",

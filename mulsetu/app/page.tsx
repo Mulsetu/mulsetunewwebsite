@@ -1,7 +1,9 @@
+import HomeBenefits from "@/components/home/HomeBenefits";
+import HomeBottomLine from "@/components/home/HomeBottomLine";
 import HomeCapabilities from "@/components/home/HomeCapabilities";
+import HomeContrast from "@/components/home/HomeContrast";
 import HomeHero from "@/components/home/HomeHero";
 import HomeIntro from "@/components/home/HomeIntro";
-import HomePartner from "@/components/home/HomePartner";
 import HomePlatforms from "@/components/home/HomePlatforms";
 import JsonLd from "@/components/ui/JsonLd";
 import {
@@ -31,7 +33,9 @@ export default function HomePage() {
       <HomeIntro />
       <HomeCapabilities />
       <HomePlatforms />
-      <HomePartner />
+      <HomeContrast />
+      <HomeBenefits />
+      <HomeBottomLine />
     </>
   );
 }

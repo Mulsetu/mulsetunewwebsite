@@ -108,7 +108,7 @@ export default function ServicesPage() {
         ))}
       </div>
 
-      <div className="section">
+      <div className="section section--compact-top">
         <CTA />
       </div>
     </>

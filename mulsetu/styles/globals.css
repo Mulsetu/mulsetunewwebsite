@@ -68,7 +68,8 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -89,12 +90,16 @@ ul {
   padding-block: var(--space-section);
 }
 
+.section + .section {
+  padding-top: var(--space-8);
+}
+
 .section--compact-top {
-  padding-top: var(--space-10);
+  padding-top: var(--space-8);
 }
 
 .section--compact-bottom {
-  padding-bottom: var(--space-10);
+  padding-bottom: var(--space-8);
 }
 
 .skip-link {
